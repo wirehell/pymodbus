@@ -10,9 +10,6 @@ on:
         description: 'keep minimum runs (default 6)'
         required: false
         default: 6
-  schedule:
-    # Sunday at 02:35 UTC.
-    - cron: '35 2 * * 0'
 
 jobs:
   del_runs:
